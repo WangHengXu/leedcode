@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSun", "TwoSun\TwoSun.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTwoNumbers", "AddTwoNumbers\AddTwoNumbers.csproj", "{1AC24107-3DE1-4E61-8323-31DF61B57E92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubstringWithoutRepeatingCharacters", "LongestSubstringWithoutRepeatingCharacters\LongestSubstringWithoutRepeatingCharacters.csproj", "{C67F0B8F-E0C5-4C78-A509-922A78CB89C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianofTwoSortedArrays", "MedianofTwoSortedArrays\MedianofTwoSortedArrays.csproj", "{74B34F66-9BA5-43DD-8091-FEB4D840A3F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{1AC24107-3DE1-4E61-8323-31DF61B57E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AC24107-3DE1-4E61-8323-31DF61B57E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AC24107-3DE1-4E61-8323-31DF61B57E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67F0B8F-E0C5-4C78-A509-922A78CB89C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67F0B8F-E0C5-4C78-A509-922A78CB89C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67F0B8F-E0C5-4C78-A509-922A78CB89C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67F0B8F-E0C5-4C78-A509-922A78CB89C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B34F66-9BA5-43DD-8091-FEB4D840A3F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B34F66-9BA5-43DD-8091-FEB4D840A3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B34F66-9BA5-43DD-8091-FEB4D840A3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B34F66-9BA5-43DD-8091-FEB4D840A3F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
