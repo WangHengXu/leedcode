@@ -52,7 +52,7 @@ namespace AddTwoNumbers
             ListNode p = l1, q = l2, result = new ListNode(0);
             int carry = 0;
             ListNode current = result;
-            while (p != null || q != null)
+            while (p != null || q != null)      
             {
                 int x = p == null ? 0 : p.val;
                 int y = q == null ? 0 : q.val;
