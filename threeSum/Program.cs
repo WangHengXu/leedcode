@@ -22,10 +22,10 @@ namespace threeSum
     {
         static void Main(string[] args)
         {
-            int[] nums = new int[] { -1, 0, 1, 2, -1, -4 };
-            IList<IList<int>>  t=ThreeSum(nums);
+            int[] nums = new int[] { -1, 0, 1, 2, -1, -4 ,-2,4,-2,-3,3,5,-5};
+            List<List<int>>  t=ThreeSum(nums);
         }
-        public static IList<IList<int>> ThreeSum(int[] nums)
+        public static List<List<int>> ThreeSum(int[] nums)
         {
             List<List<int>> result = new List<List<int>>();
             List<int> temp = new List<int>();
@@ -41,10 +41,7 @@ namespace threeSum
                 foreach (int item in negativeListDistinct)
                 {
                     temp = new List<int>();
-                    if(Math.Abs(item)>=plusList.Max())
-                    {
-                        break;
-                    }
+                  
                     if (plusList.Contains(Math.Abs(item)))
                     {
                         temp.Add(item);
@@ -55,21 +52,33 @@ namespace threeSum
                 }
             }
         
-            for (int i = 0; i < negativeList.Count; i++)
+            for (int i = negativeList.Count-1; i>=0; i--)
             {
-                while (negativeList[i] == negativeList[i + 1] )
+                int number = 1;
+                while (i>1 &&  negativeList[i] == negativeList[i - 1] )
                 {
-                   
-                    if (i>=negativeList.Count - 2)
-                        break;
-                    i++;
+                    number++;
+                    if (number==2)
+                    {
+                        temp = new List<int>();
+                        int sum = negativeList[i] + negativeList[i];
+                        if (plusList.Contains(Math.Abs(sum)))
+                        {
+                            temp.Add(negativeList[i]);
+                            temp.Add(negativeList[i]);
+                            temp.Add(Math.Abs(sum));
+                            result.Add(temp);
+                        }
+                    }
+                    i--;
+                  
                 }
-             
-                for (int j = i + 1; j < negativeList.Count; j++)
+                number = 1;
+                for (int j = i - 1; j >= 0; j--)
                 {
                     temp = new List<int>();
                     int sum = negativeList[i] + negativeList[j];
-                    if (Math.Abs(sum) >= plusList.Max())
+                    if (Math.Abs(sum) > plusList.Max())
                     {
                         break;
                     }
@@ -80,26 +89,59 @@ namespace threeSum
                         temp.Add(Math.Abs(sum));
                         result.Add(temp);
                     }
+                    if (j > 0)
+                    {
+                        while (negativeList[j] == negativeList[j - 1])
+                        {
+                          
+                            j--;
+                            if (j == 0)
+                            {
+                                break;
+                            }
+                        }
+                    }
+
                 }
               
             }
 
             for (int i = 0; i < plusList.Count; i++)
             {
-                while (plusList[i] == plusList[i + 1] )
+                int number = 1;
+                if (i < plusList.Count - 1)
                 {
-                    
-                    if (i >= plusList.Count - 2)
-                        break;
-                    i++;
+                    while (plusList[i] == plusList[i + 1])
+                    {
+                        number++;
+                        if (number == 2)
+                        {
+                            temp = new List<int>();
+                            int sum = plusList[i] + plusList[i];
+                            sum = -sum;
+                            if (negativeList.Contains(sum))
+                            {
+                                temp.Add(plusList[i]);
+                                temp.Add(plusList[i]);
+                                temp.Add(sum);
+                                result.Add(temp);
+                            }
+                        }
+
+                        i++;
+                        if (i == plusList.Count - 1)
+                        {
+                            break;
+                        }
+                    }
                 }
-              
+                number = 1;
                 for (int j = i + 1; j < plusList.Count; j++)
                 {
                     temp = new List<int>();
                     int sum = plusList[i] + plusList[j];
                     sum = -sum;
-                    if (sum <= negativeList.Min())
+                    if (sum < negativeList.Min())
                     {
                         break;
                     }
@@ -110,11 +152,26 @@ namespace threeSum
                         temp.Add(sum);
                         result.Add(temp);
                     }
+                    if (j < plusList.Count-1)
+                    {
+                        while (negativeList[j] == negativeList[j + 1])
+                        {
+
+                            j++;
+                            if (j == plusList.Count - 1)
+                            {
+                                break;
+                            }
+                        }
+                    }
                 }
 
             }
 
-            return result as IList<IList<int>>;
+
+            
+            
+             return result;
            
            
         }
