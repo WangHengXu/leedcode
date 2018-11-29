@@ -31,7 +31,7 @@ namespace LongestSubstringWithoutRepeatingCharacters
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(LengthOfLongestSubstring("pwwkew"));
+            Console.WriteLine(test("abcabcbb"));
             Console.Read();
 
         }
@@ -53,8 +53,9 @@ namespace LongestSubstringWithoutRepeatingCharacters
                     {
                         longestString = temp;
                     }
-                    tempstr = string.Empty;
-                    temp = 0;
+                    int t = tempstr.LastIndexOf(str);
+                    tempstr = tempstr.Substring(t+1)+str;
+                    temp = tempstr.Length;
                 }
             }
             if (longestString < temp)
@@ -63,6 +64,70 @@ namespace LongestSubstringWithoutRepeatingCharacters
             }
 
             return longestString;
+        }
+
+        public static int test(string s)
+        {
+            var chars = s.ToCharArray();
+            var maxLength = 0;
+            var current = 0;
+            var lengthTable = new int[256];
+            for (var i = 0; i < lengthTable.Length; i++)
+            {
+                lengthTable[i] = -1;
+            }
+
+            for (var i = 0; i < chars.Length; i++)
+            {
+                var charVal = (int)(chars[i]);
+                var found = lengthTable[charVal];
+
+                if (found > -1 && found >= current)
+                {
+                    current = found + 1;
+                }
+
+                var newLength = i - current + 1;
+                if (newLength > maxLength)
+                {
+                    maxLength = newLength;
+                }
+
+                lengthTable[charVal] = i;
+            }
+
+            return maxLength;
+        }
+        public static int test1(string s)
+        {
+            Dictionary<char, int> dic = new Dictionary<char, int>();
+            int maxstart = 0; int maxend = 0; int maxLength = 0;
+            int startTemp = 0;
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (!dic.ContainsKey(s[i]))
+                    dic.Add(s[i], i);
+                else
+                {
+                    int x = dic[s[i]];
+                    if (dic[s[i]] >= startTemp)
+                    {
+                        int length = i - 1 - startTemp + 1;
+                        if (length > maxLength)
+                        {
+                            maxstart = startTemp;
+                            maxend = i - 1;
+                            maxLength = length;
+                        }
+                        startTemp = dic[s[i]] + 1;
+                    }
+                    dic[s[i]] = i;
+                }
+            }
+            int len = s.Length - startTemp;
+            if (len > maxLength)
+                maxLength = len;
+            return maxLength;
         }
     }
 }
