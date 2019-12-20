@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2016
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSun", "TwoSun\TwoSun.csproj", "{BF81E689-1375-4C1C-9FD2-6766016146E4}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetterCombinationsofaPhoneNumber", "LetterCombinationsofaPhoneNumber\LetterCombinationsofaPhoneNumber.csproj", "{BA4FF9D7-3DA8-441E-8933-A606B4D84058}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateList", "RotateList\RotateList.csproj", "{57BAA7CE-1D5C-4792-A54D-FEDAB022BF72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchSort", "BinarySearchSort\BinarySearchSort.csproj", "{A0D1F1F1-71B3-453A-815B-3DC2796E51C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{57BAA7CE-1D5C-4792-A54D-FEDAB022BF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57BAA7CE-1D5C-4792-A54D-FEDAB022BF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57BAA7CE-1D5C-4792-A54D-FEDAB022BF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D1F1F1-71B3-453A-815B-3DC2796E51C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D1F1F1-71B3-453A-815B-3DC2796E51C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D1F1F1-71B3-453A-815B-3DC2796E51C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D1F1F1-71B3-453A-815B-3DC2796E51C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
