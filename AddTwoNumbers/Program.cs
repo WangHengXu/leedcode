@@ -62,12 +62,13 @@ namespace AddTwoNumbers
                 current = current.next;
                 if (p != null) p = p.next;
                 if (q != null) q = q.next;
+
             }
             if (carry >0)
             {
                 current.next = new ListNode(carry);
             }
-            return result;
+            return result.next;
         }
     }
 }

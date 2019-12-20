@@ -49,7 +49,7 @@ namespace MedianofTwoSortedArrays
                 int j = halflen - i;
                 if (i < iMax && nums1[i] < nums2[j - 1])
                     iMin = i + 1;
-                if (i > iMin && nums1[i - 1] > nums2[j])
+             else   if (i > iMin && nums1[i - 1] > nums2[j])
                     iMax = i - 1;
                 else
                 {

@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchSort", "BinaryS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectSort", "SelectSort\SelectSort.csproj", "{69619A52-5F2B-4CFE-853B-B765A40CCC62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestPalindromicSubstring", "LongestPalindromicSubstring\LongestPalindromicSubstring.csproj", "{DD505521-A557-48B0-AE48-354F4B8726C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{69619A52-5F2B-4CFE-853B-B765A40CCC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69619A52-5F2B-4CFE-853B-B765A40CCC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69619A52-5F2B-4CFE-853B-B765A40CCC62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD505521-A557-48B0-AE48-354F4B8726C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD505521-A557-48B0-AE48-354F4B8726C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD505521-A557-48B0-AE48-354F4B8726C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD505521-A557-48B0-AE48-354F4B8726C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
