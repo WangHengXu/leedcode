@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace PathSum
 {
@@ -36,10 +37,10 @@ namespace PathSum
         {
             Console.WriteLine("Hello World!");
         }
-   
+
         public bool HasPathSum(TreeNode root, int sum)
         {
-          return  HasPathSumcheck(root, 0, sum);
+            return HasPathSumcheck(root, 0, sum);
         }
         public bool HasPathSumcheck(TreeNode root, int cursum, int sum)
         {
@@ -69,9 +70,28 @@ namespace PathSum
             sum -= root.val;
             if ((root.left == null) && (root.right == null))
                 return (sum == 0);
-            return HasPathSum(root.left, sum) || HasPathSum(root.right, sum);
+            return HasPathSum2(root.left, sum) || HasPathSum2(root.right, sum);
 
-     
+        }
+        IList<IList<int>> list = new List<IList<int>>();
+        public void HasPathSum3(TreeNode root, int sum,List<int> tempList)
+        {
+            if (root == null)
+                return ;
+            List<int> templist2 = new List<int>();
+            if (tempList != null)
+            {
+                templist2.AddRange(tempList);
+            }
+            templist2.Add(root.val);
+            sum -= root.val;
+            if ((root.left == null) && (root.right == null)&&sum==0)
+            {
+                list.Add(templist2);
+                return;
+            }
+            HasPathSum3(root.left, sum, templist2);
+            HasPathSum3(root.right, sum, templist2);
         }
     }
 }

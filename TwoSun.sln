@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumDepthofBinaryTree", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructBinaryTreefromPreorderandInorderTraversal", "ConstructBinaryTreefromPreorderandInorderTraversal\ConstructBinaryTreefromPreorderandInorderTraversal.csproj", "{707DA7ED-F078-46F6-80DC-332CAD491CBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructBinaryTreefromInorderandPostorderTraversal", "ConstructBinaryTreefromInorderandPostorderTraversal\ConstructBinaryTreefromInorderandPostorderTraversal.csproj", "{890CE3EE-9B02-412A-95BB-1E60921792F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeLevelOrderTraversalII", "BinaryTreeLevelOrderTraversalII\BinaryTreeLevelOrderTraversalII.csproj", "{A7CC16B0-A923-4E24-985B-02725A29BEAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{707DA7ED-F078-46F6-80DC-332CAD491CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{707DA7ED-F078-46F6-80DC-332CAD491CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{707DA7ED-F078-46F6-80DC-332CAD491CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890CE3EE-9B02-412A-95BB-1E60921792F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890CE3EE-9B02-412A-95BB-1E60921792F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890CE3EE-9B02-412A-95BB-1E60921792F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890CE3EE-9B02-412A-95BB-1E60921792F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CC16B0-A923-4E24-985B-02725A29BEAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CC16B0-A923-4E24-985B-02725A29BEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CC16B0-A923-4E24-985B-02725A29BEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CC16B0-A923-4E24-985B-02725A29BEAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
