@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestValidParentheses", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WildcardMatching", "WildcardMatching\WildcardMatching.csproj", "{A028ADCE-DC81-4273-A024-FD383F8FC8A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathSum", "PathSum\PathSum.csproj", "{301BE9D5-95DC-4CAF-99D3-ED2C78A3EEF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathSum", "PathSum\PathSum.csproj", "{301BE9D5-95DC-4CAF-99D3-ED2C78A3EEF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateBinarySearchTree", "ValidateBinarySearchTree\ValidateBinarySearchTree.csproj", "{F1E86AD8-E13A-48B5-8CEA-49D8FB348EEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{301BE9D5-95DC-4CAF-99D3-ED2C78A3EEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{301BE9D5-95DC-4CAF-99D3-ED2C78A3EEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{301BE9D5-95DC-4CAF-99D3-ED2C78A3EEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E86AD8-E13A-48B5-8CEA-49D8FB348EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E86AD8-E13A-48B5-8CEA-49D8FB348EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E86AD8-E13A-48B5-8CEA-49D8FB348EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E86AD8-E13A-48B5-8CEA-49D8FB348EEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
