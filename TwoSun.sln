@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectSort", "SelectSort\Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestPalindromicSubstring", "LongestPalindromicSubstring\LongestPalindromicSubstring.csproj", "{DD505521-A557-48B0-AE48-354F4B8726C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumber", "PalindromeNumber\PalindromeNumber.csproj", "{CABC070B-AA4F-40C6-96AC-A8AA2E521370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpressionMatching", "RegularExpressionMatching\RegularExpressionMatching.csproj", "{781BA73A-664E-49EC-9152-BD03AEA85FEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{DD505521-A557-48B0-AE48-354F4B8726C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD505521-A557-48B0-AE48-354F4B8726C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD505521-A557-48B0-AE48-354F4B8726C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABC070B-AA4F-40C6-96AC-A8AA2E521370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABC070B-AA4F-40C6-96AC-A8AA2E521370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABC070B-AA4F-40C6-96AC-A8AA2E521370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABC070B-AA4F-40C6-96AC-A8AA2E521370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{781BA73A-664E-49EC-9152-BD03AEA85FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781BA73A-664E-49EC-9152-BD03AEA85FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781BA73A-664E-49EC-9152-BD03AEA85FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781BA73A-664E-49EC-9152-BD03AEA85FEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
