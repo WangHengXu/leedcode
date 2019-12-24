@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeLevelOrderTravers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumDepthofBinaryTree", "MaximumDepthofBinaryTree\MaximumDepthofBinaryTree.csproj", "{358284A4-7931-4F8D-B8D5-C74CEF2673BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructBinaryTreefromPreorderandInorderTraversal", "ConstructBinaryTreefromPreorderandInorderTraversal\ConstructBinaryTreefromPreorderandInorderTraversal.csproj", "{707DA7ED-F078-46F6-80DC-332CAD491CBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{358284A4-7931-4F8D-B8D5-C74CEF2673BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{358284A4-7931-4F8D-B8D5-C74CEF2673BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{358284A4-7931-4F8D-B8D5-C74CEF2673BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{707DA7ED-F078-46F6-80DC-332CAD491CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{707DA7ED-F078-46F6-80DC-332CAD491CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{707DA7ED-F078-46F6-80DC-332CAD491CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{707DA7ED-F078-46F6-80DC-332CAD491CBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
