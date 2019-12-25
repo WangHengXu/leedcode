@@ -33,15 +33,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathSum", "PathSum\PathSum.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateBinarySearchTree", "ValidateBinarySearchTree\ValidateBinarySearchTree.csproj", "{F1E86AD8-E13A-48B5-8CEA-49D8FB348EEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeLevelOrderTraversal", "BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.csproj", "{57E43555-49B3-4D16-A476-E444691F032C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeLevelOrderTraversal", "BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.csproj", "{57E43555-49B3-4D16-A476-E444691F032C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumDepthofBinaryTree", "MaximumDepthofBinaryTree\MaximumDepthofBinaryTree.csproj", "{358284A4-7931-4F8D-B8D5-C74CEF2673BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumDepthofBinaryTree", "MaximumDepthofBinaryTree\MaximumDepthofBinaryTree.csproj", "{358284A4-7931-4F8D-B8D5-C74CEF2673BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructBinaryTreefromPreorderandInorderTraversal", "ConstructBinaryTreefromPreorderandInorderTraversal\ConstructBinaryTreefromPreorderandInorderTraversal.csproj", "{707DA7ED-F078-46F6-80DC-332CAD491CBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructBinaryTreefromPreorderandInorderTraversal", "ConstructBinaryTreefromPreorderandInorderTraversal\ConstructBinaryTreefromPreorderandInorderTraversal.csproj", "{707DA7ED-F078-46F6-80DC-332CAD491CBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructBinaryTreefromInorderandPostorderTraversal", "ConstructBinaryTreefromInorderandPostorderTraversal\ConstructBinaryTreefromInorderandPostorderTraversal.csproj", "{890CE3EE-9B02-412A-95BB-1E60921792F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructBinaryTreefromInorderandPostorderTraversal", "ConstructBinaryTreefromInorderandPostorderTraversal\ConstructBinaryTreefromInorderandPostorderTraversal.csproj", "{890CE3EE-9B02-412A-95BB-1E60921792F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeLevelOrderTraversalII", "BinaryTreeLevelOrderTraversalII\BinaryTreeLevelOrderTraversalII.csproj", "{A7CC16B0-A923-4E24-985B-02725A29BEAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeLevelOrderTraversalII", "BinaryTreeLevelOrderTraversalII\BinaryTreeLevelOrderTraversalII.csproj", "{A7CC16B0-A923-4E24-985B-02725A29BEAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertSortedArraytBinarySearchTree", "ConvertSortedArraytBinarySearchTree\ConvertSortedArraytBinarySearchTree.csproj", "{90809453-5D6F-44CE-B966-6ED5646CEAAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalancedBinaryTree", "BalancedBinaryTree\BalancedBinaryTree.csproj", "{F67D9302-7B89-4E53-82C9-5F2B56171AFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +133,14 @@ Global
 		{A7CC16B0-A923-4E24-985B-02725A29BEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7CC16B0-A923-4E24-985B-02725A29BEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7CC16B0-A923-4E24-985B-02725A29BEAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90809453-5D6F-44CE-B966-6ED5646CEAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90809453-5D6F-44CE-B966-6ED5646CEAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90809453-5D6F-44CE-B966-6ED5646CEAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90809453-5D6F-44CE-B966-6ED5646CEAAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67D9302-7B89-4E53-82C9-5F2B56171AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67D9302-7B89-4E53-82C9-5F2B56171AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67D9302-7B89-4E53-82C9-5F2B56171AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67D9302-7B89-4E53-82C9-5F2B56171AFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
