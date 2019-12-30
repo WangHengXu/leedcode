@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using TreeNodeNamespaces;
 
 namespace PathSum
 {
@@ -26,13 +27,7 @@ namespace PathSum
      */
     class Program
     {
-        public class TreeNode
-        {
-            public int val;
-            public TreeNode left;
-            public TreeNode right;
-            public TreeNode(int x) { val = x; }
-        }
+   
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");

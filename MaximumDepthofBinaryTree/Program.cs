@@ -1,15 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using TreeNodeNamespaces;
 
 namespace MaximumDepthofBinaryTree
 {
-    public class TreeNode
-    {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-        public TreeNode(int x) { val = x; }
-    }
+  
     class Program
     {
         /*
