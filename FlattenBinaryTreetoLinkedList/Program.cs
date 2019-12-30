@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using TreeNodeNamespaces;
 
 namespace FlattenBinaryTreetoLinkedList
@@ -37,9 +38,30 @@ namespace FlattenBinaryTreetoLinkedList
         {
             Console.WriteLine("Hello World!");
         }
+        List<int> treeNodes = new List<int>();
+        public TreeNode Flatten()
+        {
+            TreeNode treeNode = new TreeNode(treeNodes[0]);
+            TreeNode temp = treeNode;
+            for (int i = 1; i < treeNodes.Count; i++)
+            {
+                treeNode.right = new TreeNode(treeNodes[i]);
+                treeNode = treeNode.right;
+            }
+            return temp;
+        }
         public void Flatten(TreeNode root)
         {
-
+            if (root == null) return;
+            Flatten2(root);
+            root = Flatten();
+        }
+        public void Flatten2(TreeNode root)
+        {
+            if (root == null) return;
+            treeNodes.Add(root.val);
+            Flatten(root.left);
+            Flatten(root.right);
         }
     }
 }

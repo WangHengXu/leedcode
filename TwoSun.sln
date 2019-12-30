@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlattenBinaryTreetoLinkedLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeNode", "TreeNode\TreeNode.csproj", "{1BA1E64C-2E57-40F9-A46A-C486B8978E00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopulatingNextRightPointersinEachNode", "PopulatingNextRightPointersinEachNode\PopulatingNextRightPointersinEachNode.csproj", "{23A6733D-CE64-4DAB-848C-31D475632228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopulatingNextRightPointersinEachNodeII", "PopulatingNextRightPointersinEachNodeII\PopulatingNextRightPointersinEachNodeII.csproj", "{171DF57A-3F3E-4C68-8BC8-3AD110B88BBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,14 @@ Global
 		{1BA1E64C-2E57-40F9-A46A-C486B8978E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BA1E64C-2E57-40F9-A46A-C486B8978E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BA1E64C-2E57-40F9-A46A-C486B8978E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A6733D-CE64-4DAB-848C-31D475632228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A6733D-CE64-4DAB-848C-31D475632228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A6733D-CE64-4DAB-848C-31D475632228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A6733D-CE64-4DAB-848C-31D475632228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171DF57A-3F3E-4C68-8BC8-3AD110B88BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171DF57A-3F3E-4C68-8BC8-3AD110B88BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171DF57A-3F3E-4C68-8BC8-3AD110B88BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171DF57A-3F3E-4C68-8BC8-3AD110B88BBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
