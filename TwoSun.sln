@@ -63,6 +63,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreePreorderTraversal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeMaximumPathSum", "BinaryTreeMaximumPathSum\BinaryTreeMaximumPathSum.csproj", "{42A81B71-FAA9-4589-AF47-5067DBF33757}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreePostorderTraversal", "BinaryTreePostorderTraversal\BinaryTreePostorderTraversal.csproj", "{C31AC614-9BC7-4443-823B-457C5B3A3CB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{42A81B71-FAA9-4589-AF47-5067DBF33757}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42A81B71-FAA9-4589-AF47-5067DBF33757}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42A81B71-FAA9-4589-AF47-5067DBF33757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31AC614-9BC7-4443-823B-457C5B3A3CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31AC614-9BC7-4443-823B-457C5B3A3CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31AC614-9BC7-4443-823B-457C5B3A3CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31AC614-9BC7-4443-823B-457C5B3A3CB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
