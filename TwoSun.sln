@@ -57,9 +57,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PopulatingNextRightPointers
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PopulatingNextRightPointersinEachNodeII", "PopulatingNextRightPointersinEachNodeII\PopulatingNextRightPointersinEachNodeII.csproj", "{171DF57A-3F3E-4C68-8BC8-3AD110B88BBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumRoottoLeafNumbers", "SumRoottoLeafNumbers\SumRoottoLeafNumbers.csproj", "{81620FAC-226E-4D48-85E6-491E790E0C7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumRoottoLeafNumbers", "SumRoottoLeafNumbers\SumRoottoLeafNumbers.csproj", "{81620FAC-226E-4D48-85E6-491E790E0C7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreePreorderTraversal", "BinaryTreePreorderTraversal\BinaryTreePreorderTraversal.csproj", "{744D2E5A-A117-448E-86C1-526CD86DE5AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreePreorderTraversal", "BinaryTreePreorderTraversal\BinaryTreePreorderTraversal.csproj", "{744D2E5A-A117-448E-86C1-526CD86DE5AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeMaximumPathSum", "BinaryTreeMaximumPathSum\BinaryTreeMaximumPathSum.csproj", "{42A81B71-FAA9-4589-AF47-5067DBF33757}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +185,10 @@ Global
 		{744D2E5A-A117-448E-86C1-526CD86DE5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{744D2E5A-A117-448E-86C1-526CD86DE5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{744D2E5A-A117-448E-86C1-526CD86DE5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A81B71-FAA9-4589-AF47-5067DBF33757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A81B71-FAA9-4589-AF47-5067DBF33757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A81B71-FAA9-4589-AF47-5067DBF33757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A81B71-FAA9-4589-AF47-5067DBF33757}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
