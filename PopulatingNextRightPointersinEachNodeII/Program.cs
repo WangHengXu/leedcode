@@ -94,25 +94,6 @@ struct Node {
             }
             return root;
         }
-        public Node Connect2(Node root)
-        {
-            helper(root);
-            return root;
-        }
-        public void helper(Node cur)
-        {
-            if (cur == null || cur.left == null) return;
-            Node tmp = cur.left;
-            while (cur != null)
-            {
-                cur.left.next = cur.right;
-                if (cur.next != null)
-                {
-                    cur.right.next = cur.next.left;
-                }
-                cur = cur.next;
-            }
-            helper(tmp);
-        }
+     
     }
 }
