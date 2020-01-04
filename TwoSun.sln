@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertSortedListtoBinarySe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SameTree", "SameTree\SameTree.csproj", "{AEE6F384-4CD2-4C6C-9879-DC0C04DEAB0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymmetricTree", "SymmetricTree\SymmetricTree.csproj", "{6652CA71-7BB5-4AB2-B812-1A5C2B376778}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,10 @@ Global
 		{AEE6F384-4CD2-4C6C-9879-DC0C04DEAB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEE6F384-4CD2-4C6C-9879-DC0C04DEAB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEE6F384-4CD2-4C6C-9879-DC0C04DEAB0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6652CA71-7BB5-4AB2-B812-1A5C2B376778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6652CA71-7BB5-4AB2-B812-1A5C2B376778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6652CA71-7BB5-4AB2-B812-1A5C2B376778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6652CA71-7BB5-4AB2-B812-1A5C2B376778}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
