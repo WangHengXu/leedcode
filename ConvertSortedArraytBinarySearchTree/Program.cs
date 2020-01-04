@@ -29,6 +29,7 @@ namespace ConvertSortedArraytBinarySearchTree
         {
             Console.WriteLine("Hello World!");
             int[] temp = { -10, -3, 0, 5, 9 };
+         
             SortedArrayToBST(temp, 0, temp.Length);
         }
         public class TreeNode
@@ -37,6 +38,20 @@ namespace ConvertSortedArraytBinarySearchTree
             public TreeNode left;
             public TreeNode right;
             public TreeNode(int x) { val = x; }
+        }
+        //public class ListNode
+        //{
+        //    public int val;
+        //    public ListNode next;
+        //    public ListNode(int x) { val = x; }
+        //}
+        public TreeNode SortedListToBST()
+        {
+      
+            while (head != null)
+            {
+
+            }
         }
         public static TreeNode SortedArrayToBST(int[] nums,int left,int right)
         {
