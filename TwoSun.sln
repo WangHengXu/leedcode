@@ -103,6 +103,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindModeinBinarySearchTree"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MostFrequentSubtreeSum", "MostFrequentSubtreeSum\MostFrequentSubtreeSum.csproj", "{F253C31B-5E7F-4564-A036-7DAFA8DC67ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindBottomLeftTreeValue", "FindBottomLeftTreeValue\FindBottomLeftTreeValue.csproj", "{C6EB66EF-A65C-4EB5-B460-96E878039567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindLargestValueinEachTreeRow", "FindLargestValueinEachTreeRow\FindLargestValueinEachTreeRow.csproj", "{C743D220-6A90-425E-AA48-D9C52F63FE91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumAbsoluteDifferenceinBST", "MinimumAbsoluteDifferenceinBST\MinimumAbsoluteDifferenceinBST.csproj", "{6A71EFCF-96B3-486E-AA39-CF71DC693F03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -309,6 +315,18 @@ Global
 		{F253C31B-5E7F-4564-A036-7DAFA8DC67ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F253C31B-5E7F-4564-A036-7DAFA8DC67ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F253C31B-5E7F-4564-A036-7DAFA8DC67ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6EB66EF-A65C-4EB5-B460-96E878039567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6EB66EF-A65C-4EB5-B460-96E878039567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6EB66EF-A65C-4EB5-B460-96E878039567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6EB66EF-A65C-4EB5-B460-96E878039567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C743D220-6A90-425E-AA48-D9C52F63FE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C743D220-6A90-425E-AA48-D9C52F63FE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C743D220-6A90-425E-AA48-D9C52F63FE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C743D220-6A90-425E-AA48-D9C52F63FE91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A71EFCF-96B3-486E-AA39-CF71DC693F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A71EFCF-96B3-486E-AA39-CF71DC693F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A71EFCF-96B3-486E-AA39-CF71DC693F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A71EFCF-96B3-486E-AA39-CF71DC693F03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
