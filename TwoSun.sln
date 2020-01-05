@@ -75,29 +75,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvertBinaryTree", "InvertB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KthSmallestElementinaBST", "KthSmallestElementinaBST\KthSmallestElementinaBST.csproj", "{60CE890A-441D-473A-8771-B7505DA3EC5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowestCommonAncestorofaBinarySearchTree", "LowestCommonAncestorofaBinarySearchTree\LowestCommonAncestorofaBinarySearchTree.csproj", "{6B0C9F30-833C-42F9-9843-20FC82BA9652}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LowestCommonAncestorofaBinarySearchTree", "LowestCommonAncestorofaBinarySearchTree\LowestCommonAncestorofaBinarySearchTree.csproj", "{6B0C9F30-833C-42F9-9843-20FC82BA9652}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowestCommonAncestorofaBinaryTree", "LowestCommonAncestorofaBinaryTree\LowestCommonAncestorofaBinaryTree.csproj", "{8E3A7CFE-8382-4A09-8345-F5A87F77C2A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LowestCommonAncestorofaBinaryTree", "LowestCommonAncestorofaBinaryTree\LowestCommonAncestorofaBinaryTree.csproj", "{8E3A7CFE-8382-4A09-8345-F5A87F77C2A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreePaths", "BinaryTreePaths\BinaryTreePaths.csproj", "{59DDF008-22BD-4B41-A20C-A7E10C9CD57E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreePaths", "BinaryTreePaths\BinaryTreePaths.csproj", "{59DDF008-22BD-4B41-A20C-A7E10C9CD57E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressiveWords", "ExpressiveWords\ExpressiveWords.csproj", "{A1C6C6A3-9752-4878-A9E5-824370AA6560}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressiveWords", "ExpressiveWords\ExpressiveWords.csproj", "{A1C6C6A3-9752-4878-A9E5-824370AA6560}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainerWithMostWater", "ContainerWithMostWater\ContainerWithMostWater.csproj", "{B4707292-191A-43EC-9B7D-F4921CA57AA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainerWithMostWater", "ContainerWithMostWater\ContainerWithMostWater.csproj", "{B4707292-191A-43EC-9B7D-F4921CA57AA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Sum", "3Sum\3Sum.csproj", "{722588A1-115C-4A1D-9873-CA1673AF8B1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3Sum", "3Sum\3Sum.csproj", "{722588A1-115C-4A1D-9873-CA1673AF8B1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertSortedListtoBinarySearchTree", "ConvertSortedListtoBinarySearchTree\ConvertSortedListtoBinarySearchTree.csproj", "{186DF891-B8E3-4EAB-A409-B8EDA202917F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertSortedListtoBinarySearchTree", "ConvertSortedListtoBinarySearchTree\ConvertSortedListtoBinarySearchTree.csproj", "{186DF891-B8E3-4EAB-A409-B8EDA202917F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SameTree", "SameTree\SameTree.csproj", "{AEE6F384-4CD2-4C6C-9879-DC0C04DEAB0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SameTree", "SameTree\SameTree.csproj", "{AEE6F384-4CD2-4C6C-9879-DC0C04DEAB0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymmetricTree", "SymmetricTree\SymmetricTree.csproj", "{6652CA71-7BB5-4AB2-B812-1A5C2B376778}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SymmetricTree", "SymmetricTree\SymmetricTree.csproj", "{6652CA71-7BB5-4AB2-B812-1A5C2B376778}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumofLeftLeaves", "SumofLeftLeaves\SumofLeftLeaves.csproj", "{440926E5-21E3-47D5-A8F9-7BDBD1AFC3B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumofLeftLeaves", "SumofLeftLeaves\SumofLeftLeaves.csproj", "{440926E5-21E3-47D5-A8F9-7BDBD1AFC3B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathSumIII", "PathSumIII\PathSumIII.csproj", "{0F129CEA-CBB4-4A70-A898-B00413F439DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathSumIII", "PathSumIII\PathSumIII.csproj", "{0F129CEA-CBB4-4A70-A898-B00413F439DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteNodeinaBST", "DeleteNodeinaBST\DeleteNodeinaBST.csproj", "{14A430AC-C47B-4307-8D0F-69DDB1986EA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteNodeinaBST", "DeleteNodeinaBST\DeleteNodeinaBST.csproj", "{14A430AC-C47B-4307-8D0F-69DDB1986EA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindModeinBinarySearchTree", "FindModeinBinarySearchTree\FindModeinBinarySearchTree.csproj", "{F97C90CA-BA1F-4D01-94E0-A4666242E613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MostFrequentSubtreeSum", "MostFrequentSubtreeSum\MostFrequentSubtreeSum.csproj", "{F253C31B-5E7F-4564-A036-7DAFA8DC67ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -297,6 +301,14 @@ Global
 		{14A430AC-C47B-4307-8D0F-69DDB1986EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14A430AC-C47B-4307-8D0F-69DDB1986EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14A430AC-C47B-4307-8D0F-69DDB1986EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F97C90CA-BA1F-4D01-94E0-A4666242E613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F97C90CA-BA1F-4D01-94E0-A4666242E613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F97C90CA-BA1F-4D01-94E0-A4666242E613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F97C90CA-BA1F-4D01-94E0-A4666242E613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F253C31B-5E7F-4564-A036-7DAFA8DC67ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F253C31B-5E7F-4564-A036-7DAFA8DC67ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F253C31B-5E7F-4564-A036-7DAFA8DC67ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F253C31B-5E7F-4564-A036-7DAFA8DC67ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
