@@ -45,14 +45,14 @@ namespace ConvertSortedArraytBinarySearchTree
         //    public ListNode next;
         //    public ListNode(int x) { val = x; }
         //}
-        public TreeNode SortedListToBST()
-        {
+        //public TreeNode SortedListToBST()
+        //{
       
-            while (head != null)
-            {
+        //    while (head != null)
+        //    {
 
-            }
-        }
+        //    }
+        //}
         public static TreeNode SortedArrayToBST(int[] nums,int left,int right)
         {
             if (left >= right ) return null;
