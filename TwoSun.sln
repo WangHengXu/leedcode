@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumAbsoluteDifferencein
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertBSTtoGreaterTree", "ConvertBSTtoGreaterTree\ConvertBSTtoGreaterTree.csproj", "{B042112C-3FCC-41B3-B63C-8B257F488934}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumSubarray", "MaximumSubarray\MaximumSubarray.csproj", "{DA318007-39B6-465F-9569-54BD5EDB77C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -333,6 +335,10 @@ Global
 		{B042112C-3FCC-41B3-B63C-8B257F488934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B042112C-3FCC-41B3-B63C-8B257F488934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B042112C-3FCC-41B3-B63C-8B257F488934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA318007-39B6-465F-9569-54BD5EDB77C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA318007-39B6-465F-9569-54BD5EDB77C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA318007-39B6-465F-9569-54BD5EDB77C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA318007-39B6-465F-9569-54BD5EDB77C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
