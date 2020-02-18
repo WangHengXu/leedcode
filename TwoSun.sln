@@ -99,19 +99,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathSumIII", "PathSumIII\Pa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteNodeinaBST", "DeleteNodeinaBST\DeleteNodeinaBST.csproj", "{14A430AC-C47B-4307-8D0F-69DDB1986EA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindModeinBinarySearchTree", "FindModeinBinarySearchTree\FindModeinBinarySearchTree.csproj", "{F97C90CA-BA1F-4D01-94E0-A4666242E613}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindModeinBinarySearchTree", "FindModeinBinarySearchTree\FindModeinBinarySearchTree.csproj", "{F97C90CA-BA1F-4D01-94E0-A4666242E613}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MostFrequentSubtreeSum", "MostFrequentSubtreeSum\MostFrequentSubtreeSum.csproj", "{F253C31B-5E7F-4564-A036-7DAFA8DC67ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MostFrequentSubtreeSum", "MostFrequentSubtreeSum\MostFrequentSubtreeSum.csproj", "{F253C31B-5E7F-4564-A036-7DAFA8DC67ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindBottomLeftTreeValue", "FindBottomLeftTreeValue\FindBottomLeftTreeValue.csproj", "{C6EB66EF-A65C-4EB5-B460-96E878039567}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindBottomLeftTreeValue", "FindBottomLeftTreeValue\FindBottomLeftTreeValue.csproj", "{C6EB66EF-A65C-4EB5-B460-96E878039567}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindLargestValueinEachTreeRow", "FindLargestValueinEachTreeRow\FindLargestValueinEachTreeRow.csproj", "{C743D220-6A90-425E-AA48-D9C52F63FE91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindLargestValueinEachTreeRow", "FindLargestValueinEachTreeRow\FindLargestValueinEachTreeRow.csproj", "{C743D220-6A90-425E-AA48-D9C52F63FE91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumAbsoluteDifferenceinBST", "MinimumAbsoluteDifferenceinBST\MinimumAbsoluteDifferenceinBST.csproj", "{6A71EFCF-96B3-486E-AA39-CF71DC693F03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumAbsoluteDifferenceinBST", "MinimumAbsoluteDifferenceinBST\MinimumAbsoluteDifferenceinBST.csproj", "{6A71EFCF-96B3-486E-AA39-CF71DC693F03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertBSTtoGreaterTree", "ConvertBSTtoGreaterTree\ConvertBSTtoGreaterTree.csproj", "{B042112C-3FCC-41B3-B63C-8B257F488934}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertBSTtoGreaterTree", "ConvertBSTtoGreaterTree\ConvertBSTtoGreaterTree.csproj", "{B042112C-3FCC-41B3-B63C-8B257F488934}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumSubarray", "MaximumSubarray\MaximumSubarray.csproj", "{DA318007-39B6-465F-9569-54BD5EDB77C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumSubarray", "MaximumSubarray\MaximumSubarray.csproj", "{DA318007-39B6-465F-9569-54BD5EDB77C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddOneRowtoTree", "AddOneRowtoTree\AddOneRowtoTree.csproj", "{83F7F1DB-BE3C-46EC-963C-FFB798C9598B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OneRecode", "OneRecode", "{FB52AA6B-C478-412B-95C1-09D53E3BA1A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCalendar", "MyCalendar\MyCalendar.csproj", "{B760F48B-AAC9-41ED-B732-2E44F4BFC6B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReversWords", "ReversWords\ReversWords.csproj", "{783CD7E1-D8FC-479B-9641-3B611A672FA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subsets", "Subsets\Subsets.csproj", "{E3BC88D0-D69B-478E-BAF3-9FDA88347A3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoundaryOfBinaryTree", "BoundaryOfBinaryTree\BoundaryOfBinaryTree.csproj", "{DDC7CA8D-94AC-4218-98D7-9E40C5723A6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -339,9 +351,34 @@ Global
 		{DA318007-39B6-465F-9569-54BD5EDB77C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA318007-39B6-465F-9569-54BD5EDB77C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA318007-39B6-465F-9569-54BD5EDB77C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F7F1DB-BE3C-46EC-963C-FFB798C9598B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F7F1DB-BE3C-46EC-963C-FFB798C9598B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F7F1DB-BE3C-46EC-963C-FFB798C9598B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F7F1DB-BE3C-46EC-963C-FFB798C9598B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B760F48B-AAC9-41ED-B732-2E44F4BFC6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B760F48B-AAC9-41ED-B732-2E44F4BFC6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B760F48B-AAC9-41ED-B732-2E44F4BFC6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B760F48B-AAC9-41ED-B732-2E44F4BFC6B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{783CD7E1-D8FC-479B-9641-3B611A672FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783CD7E1-D8FC-479B-9641-3B611A672FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783CD7E1-D8FC-479B-9641-3B611A672FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783CD7E1-D8FC-479B-9641-3B611A672FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3BC88D0-D69B-478E-BAF3-9FDA88347A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3BC88D0-D69B-478E-BAF3-9FDA88347A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3BC88D0-D69B-478E-BAF3-9FDA88347A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3BC88D0-D69B-478E-BAF3-9FDA88347A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC7CA8D-94AC-4218-98D7-9E40C5723A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC7CA8D-94AC-4218-98D7-9E40C5723A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC7CA8D-94AC-4218-98D7-9E40C5723A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC7CA8D-94AC-4218-98D7-9E40C5723A6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B760F48B-AAC9-41ED-B732-2E44F4BFC6B6} = {FB52AA6B-C478-412B-95C1-09D53E3BA1A7}
+		{783CD7E1-D8FC-479B-9641-3B611A672FA8} = {FB52AA6B-C478-412B-95C1-09D53E3BA1A7}
+		{E3BC88D0-D69B-478E-BAF3-9FDA88347A3B} = {FB52AA6B-C478-412B-95C1-09D53E3BA1A7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {08E4009C-B598-43B4-BEEE-935DBAD4619D}
