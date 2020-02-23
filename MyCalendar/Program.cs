@@ -34,7 +34,7 @@ namespace MyCalendar
         {
             AgendaList.Sort();
             var AgendaItem = AgendaList.FirstOrDefault(x => x.end < start);
-            if()
+           // if()
 
             return true;
         }
